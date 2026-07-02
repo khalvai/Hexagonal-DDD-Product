@@ -1,5 +1,3 @@
-
-
 export class DeleteAllCommand {
-    constructor(public userId: string) { }
+	constructor(public userId: string) {}
 }

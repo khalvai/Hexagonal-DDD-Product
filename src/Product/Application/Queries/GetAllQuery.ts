@@ -1,4 +1,3 @@
-
 export class GetAllQuery {
-    constructor(public userId: string) { }
+	constructor(public userId: string) {}
 }

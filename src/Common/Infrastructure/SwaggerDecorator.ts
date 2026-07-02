@@ -36,7 +36,7 @@ export function SwaggerApiResponse<T>(
 									? {
 											type: 'array',
 											items: { $ref: getSchemaPath(dto) }
-										}
+									  }
 									: { $ref: getSchemaPath(dto) }
 							}
 						}

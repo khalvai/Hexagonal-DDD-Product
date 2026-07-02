@@ -1,8 +1,6 @@
-import { ApiProperty } from "@nestjs/swagger";
+import { ApiProperty } from '@nestjs/swagger'
 
 export class CreateManyProductDTO {
-
-
-    @ApiProperty({ type: 'string', format: 'binary', required: true })
-    file: any
+	@ApiProperty({ type: 'string', format: 'binary', required: true })
+	file: any
 }

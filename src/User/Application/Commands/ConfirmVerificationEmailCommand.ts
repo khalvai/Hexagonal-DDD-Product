@@ -1,5 +1,3 @@
-
 export class ConfirmVerificationEmailCommand {
-
-    constructor(public readonly token: string) { }
+	constructor(public readonly token: string) {}
 }

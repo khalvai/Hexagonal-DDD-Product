@@ -12,6 +12,7 @@ services:
         - .env
       volumes:
        - .:/usr/src/app
+       - /usr/src/app/node_modules 
       ports:
         - '3000:3000'
       depends_on:

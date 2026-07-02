@@ -1,9 +1,4 @@
-
-
-
-export const Publisher = Symbol("Publisher").valueOf();
+export const Publisher = Symbol('Publisher').valueOf()
 export interface Publisher {
-
-
-    publish(eventName: string, event: any): Promise<void>;
+	publish(eventName: string, event: any): Promise<void>
 }

@@ -1,5 +1,4 @@
-import { ICommandHandler } from "@nestjs/cqrs";
-import { DeleteAllCommand } from "src/Product/Application/Commands/DeleteAllCommand";
+import { ICommandHandler } from '@nestjs/cqrs'
+import { DeleteAllCommand } from 'src/Product/Application/Commands/DeleteAllCommand'
 
-
-export interface DeleteAll extends ICommandHandler<DeleteAllCommand, Promise<void>> { }
+export interface DeleteAll extends ICommandHandler<DeleteAllCommand, Promise<void>> {}

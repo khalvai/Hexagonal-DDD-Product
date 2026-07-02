@@ -1,13 +1,9 @@
-import User from "./User";
-
+import User from './User'
 
 class NullUser extends User {
-
-    public isNull(): boolean {
-        return true
-    }
-
-
+	public isNull(): boolean {
+		return true
+	}
 }
 
 export default new NullUser()
