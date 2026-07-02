@@ -24,7 +24,7 @@ A NestJS backend that demonstrates **Hexagonal Architecture**, **Domain-Driven D
 
 **Hexagonal Architecture** . The goal is simple:
 
-> Keep the application core independent from databases, HTTP, message brokers, and other external technologies — so the same business logic can be driven by a REST API, a CLI, a test, or a batch job.
+> Keep the application core independent from databases, HTTP, message brokers, and other external technologies so by changing the magic and shiny tools your application business logic won't alter.
 
 ![Hexagonal Architecture — Ports and Adapters](./hexagonal-architecture-external.svg)
 
